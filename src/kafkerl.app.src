@@ -1,8 +1,15 @@
+%% -*- erlang -*-
 {application, kafkerl,
  [{description, []},
   {vsn, "1.5"},
   {registered, []},
-  {applications, [kernel, stdlib]},
+  {applications,
+   [
+    kernel,
+    stdlib,
+    validerl,
+    epocxy
+   ]},
   {mod, {kafkerl, []}},
   {env, []},
   {lager, [{handlers, [{lager_console_backend, info}]}]}]}.
