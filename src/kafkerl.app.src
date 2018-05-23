@@ -7,8 +7,7 @@
    [
     kernel,
     stdlib,
-    validerl,
-    epocxy
+    validerl
    ]},
   {mod, {kafkerl, []}},
   {env, []},
